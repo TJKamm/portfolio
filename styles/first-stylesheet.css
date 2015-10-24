@@ -1,0 +1,31 @@
+body {
+  background-color: azure;
+  font-family: "Georgia";
+  width: 80%;
+  margin: auto;
+  border: 1px solid slategray;
+  padding: 20px;
+}
+header {
+  text-align: center;
+}
+h1 {
+  color: cornflowerblue;
+}
+p { color: slategray; }
+footer a { color: darkblue; }
+a.navbar {
+  display: block;
+  width: 60px;
+}
+a:hover {
+  color: darkblue;
+}
+a:visited {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
