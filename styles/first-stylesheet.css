@@ -1,6 +1,6 @@
 body {
-  background-color: azure;
-  font-family: "Georgia";
+  background-color: aliceblue;
+  font-family: "Lucida Bright";
   width: 80%;
   margin: auto;
   border: 1px solid slategray;
@@ -11,21 +11,33 @@ header {
 }
 h1 {
   color: cornflowerblue;
+  text-align: center;
 }
-p { color: slategray; }
-footer a { color: darkblue; }
-a.navbar {
+h2 {
+  font-style: oblique;
+}
+p { 
+  color: slategray; 
+  text-align: center; 
+}
+a {
+  color: indigo;
+  text-decoration: none;
+}
+#navbar {
   display: block;
-  width: 60px;
-}
-a:hover {
-  color: darkblue;
+  width: 120px;
 }
 a:visited {
   text-decoration: none;
+}
+a:hover {
+  color: silver;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
+footer a { color: darkblue; }
