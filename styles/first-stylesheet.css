@@ -15,7 +15,7 @@ h2 {
 header {
   width: 100%;
   height: 11em;
-   background-image: url("../images/eiffel-tower.jpg");
+  background-image: url("../images/eiffel-tower.jpg");
   background-repeat: no-repeat;
 }
 a {
