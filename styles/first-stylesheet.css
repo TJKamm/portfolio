@@ -7,7 +7,10 @@ h1 {
   color: black;
   text-align: center;
   font-family: 'Rock Salt', cursive;
-  padding: 1em;
+  margin-left: 2em;
+  margin-right: 1em;
+  margin-top: 2.25em;
+  float: left;
 }
 h2 {
   font-family: Lucida Bright, Georgia, serif;
@@ -34,24 +37,28 @@ article img {
 nav {
   width: 100%;
   height: 10em;
-  margin-top: 3em;
 }
 nav li {
   float: left;
   text-align: center;
-  width: 20%;
+  width: 15%;
   margin-left: 1em;
-  margin-top: 10em;
+  margin-top: 4.5em;
+}
+nav a {
+  border-bottom: 2px solid slategrey;;
+  padding: 0.25em;
 }
 nav a:hover {
-  color: grey;
+  color: slategrey;;
+  border-bottom: 2px solid black;
 }
 a:link {
-  color: black;
+  color: slategrey;;
   text-decoration: none;
 }
 a:visited {
-  color: black;
+  color: slategrey;;
   text-decoration: none;
 }
 a:hover {
@@ -60,19 +67,18 @@ a:hover {
 a:active {
   color: black;
 }
-article ul {
-  margin: 0;
-  padding: 0;
-}
 article {
-  width: 40em;
-  margin: auto;
-  padding: 2em;
   clear: both;
+  width: 90%;
+  margin: auto;
 }
 article li {
   margin-top: 2em;
+  margin-left: 15%;
   float: left;
+}
+article img:hover {
+  opacity: 0.6;
 }
 footer {
   clear: both;
@@ -91,9 +97,9 @@ footer p {
   clear: both;
   padding-left: 1.5em;
 }
-div.float {
-  float: left;
-}
 div img {
-  height: 15em;
+  float: left;
+  height: 10em;
+  margin-top: 2em;
+  margin-left: 4em;
 }
